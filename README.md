@@ -6,7 +6,7 @@ This is a template that can be used for developing GTK applications. It uses Val
 
 ### Setting up & Running the Template
 
-To use this template, you will need to change various pieces of the code and filenames. Just search for anything including `vala-gtk-template`, `ValaGtkTemplate` or similar.
+To use this template, you will need to change various pieces of the code and filenames. Just search for anything including `vala-gtk-template`, `ValaGtkTemplate`, `de.thetek.vala-gtk-template` or similar, and change it to your desired application name.
 
 A script that does all of this renaming automatically is currently being worked on.
 
