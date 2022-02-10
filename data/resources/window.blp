@@ -1,0 +1,16 @@
+using Gtk 4.0;
+using Adw 1;
+
+template ValaGtkTemplateWindow : Adw.ApplicationWindow {
+  title: "Vala & GTK Template";
+
+  Box {
+    orientation: vertical;
+
+    Adw.HeaderBar {}
+
+    Label {
+      label: "Hello, World!";
+    }
+  }
+}

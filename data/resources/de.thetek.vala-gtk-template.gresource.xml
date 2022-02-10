@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/vala-gtk-template/">
+    <file preprocess="xml-stripblanks" alias="window.ui">../../build/data/resources/window.ui</file>
+  </gresource>
+</gresources>
