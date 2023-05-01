@@ -1,16 +1,19 @@
 #!/usr/bin/env bash
 set -xe
 
-# remove files that might conflict
-rm -rf build/ subprojects/blueprint-compiler/
+# ----------------- variables ------------------
 
-# variables
 PROJECT_NAME="my-project"
 PROJECT_ID="foo.bar.$PROJECT_NAME"
 RESOURCE_PATH="/foo/bar/$PROJECT_NAME"
 NAMESPACE="MyProject"
 CNAME="my_project"
 AUTHOR="author"
+
+# -------------------- code --------------------
+
+# remove files that might conflict
+rm -rf build/ subprojects/blueprint-compiler/
 
 # rename files
 mv ./data/{de.thetek.vala-gtk-template,$PROJECT_ID}.appdata.xml.in
