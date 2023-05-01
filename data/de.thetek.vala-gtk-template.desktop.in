@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ValaGtkTemplate
+Exec=ValaGtkTemplate
+Icon=de.thetek.vala-gtk-template
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

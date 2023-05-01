@@ -1,0 +1,40 @@
+using Gtk 4.0;
+using Adw 1;
+
+template ValaGtkTemplateWindow : Adw.ApplicationWindow {
+  title: _("ValaGtkTemplate");
+  default-width: 1280;
+  default-height: 720;
+
+  Gtk.Box {
+    orientation: vertical;
+
+    Adw.HeaderBar {
+      [end]
+      Gtk.MenuButton {
+        icon-name: "open-menu-symbolic";
+        menu-model: primary_menu;
+      }
+    }
+
+    Gtk.Label {
+      styles ["red"]
+      hexpand: true;
+      vexpand: true;
+      label: "ValaGtkTemplate";
+    }
+  }
+}
+
+menu primary_menu {
+  section {
+    item {
+      label: _("Preferences");
+      action: "app.preferences";
+    }
+    item {
+      label: _("About ValaGtkTemplate");
+      action: "app.about";
+    }
+  }
+}

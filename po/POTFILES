@@ -1,0 +1,6 @@
+data/de.thetek.vala-gtk-template.desktop.in
+data/de.thetek.vala-gtk-template.appdata.xml.in
+data/de.thetek.vala-gtk-template.gschema.xml
+src/main.vala
+src/window.vala
+src/ui/window.ui
